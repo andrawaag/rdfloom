@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-VERSION = "0.0.4"
+VERSION = "0.0.5"
 
 setup(
     name='rdfloom',
@@ -7,7 +7,7 @@ setup(
     author='Andra Waagmeester',
     author_email='andra@micel.io',
     description='Python package for weaving RDF from tabular data',
-    long_description=open('README.md').read(),
+    long_description    =open('README.md').read(),
     long_description_content_type='text/markdown',
     license='MIT',
     classifiers=[
